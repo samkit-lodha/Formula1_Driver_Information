@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DriverInformation">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/driverImage2"
+            android:src="@drawable/mv"
+            android:layout_width="110dp"
+            android:layout_height="110dp" />
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/countryImage2"
+            android:src="@drawable/belgum"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/driverName2"
+        android:text="Max"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/driverLastName2"
+        android:text="Verstappen"
+        android:textSize="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:text=" Rank "
+                android:textSize="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rank2"
+                android:text="1"
+                android:textSize="70dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:text=" Points "
+                android:textSize="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/points2"
+                android:text="182"
+                android:textSize="70dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/teamName2"
+        android:textSize="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Red Bull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
